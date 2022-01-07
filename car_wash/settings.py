@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'car_wash_app',
+    'login_system',
+    'home',
 ]
 
 MIDDLEWARE = [
