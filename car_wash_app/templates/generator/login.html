@@ -5,7 +5,9 @@
         <div id="container" class="container">
             <div class="row">
                 <div class="col-sm-10 offset-sm-1 text-center">
-                    <h1 class="display-3">GoldCar Lava Rápido</h1>
+                    
+                    {% load static %}
+                    <img src="{% static 'car_wash_app/logo.png' %}" />
                     <div class="info-form">
                         <form action="{% url 'home' %}" class="form-inline justify-content-center">
                             <div class="form-group">
