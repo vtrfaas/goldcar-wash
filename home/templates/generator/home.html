@@ -15,19 +15,22 @@
       <div class="b-example-divider"></div>
       <div class="container px-4 py-5" id="custom-menu">
         <h2 class="pb-2 border-bottom">Menus</h2>
+        
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-            <div class="col">
-              <div class="card card-hover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-          
-                  <h2 class="pt-5 mt-5 mb-4 display-7 1h-1 fw-bold"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 20">
-                    <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-                    <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                  </svg> Clientes</h2>
-          
+          <a href="{% url 'home:cliente:clientes' %}">  
+              <div class="col">
+                <div class="card card-hover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            
+                    <h2 class="pt-5 mt-5 mb-4 display-7 1h-1 fw-bold"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 20">
+                      <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                      <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> Clientes</h2>
+            
+                  </div>
                 </div>
               </div>
-            </div>
+          </a>
             <div class="col">
               <div class="card card-hover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
